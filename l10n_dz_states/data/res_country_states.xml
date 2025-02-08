@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    <data noupdate="1">-->
+
+        <record id="state_01" model="res.country.state">
+            <field name="name">ADRAR</field>
+            <field name="code">01</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_02" model="res.country.state">
+            <field name="name">CHLEF</field>
+            <field name="code">02</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_03" model="res.country.state">
+            <field name="name">LAGHOUAT</field>
+            <field name="code">03</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_04" model="res.country.state">
+            <field name="name">OUM EL BOUAGHI</field>
+            <field name="code">04</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_05" model="res.country.state">
+            <field name="name">BATNA</field>
+            <field name="code">05</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_06" model="res.country.state">
+            <field name="name">BEJAIA</field>
+            <field name="code">06</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_07" model="res.country.state">
+            <field name="name">BISKRA</field>
+            <field name="code">07</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_08" model="res.country.state">
+            <field name="name">BECHAR</field>
+            <field name="code">08</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_09" model="res.country.state">
+            <field name="name">BLIDA</field>
+            <field name="code">09</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_10" model="res.country.state">
+            <field name="name">BOUIRA</field>
+            <field name="code">10</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_11" model="res.country.state">
+            <field name="name">TAMANRASSET</field>
+            <field name="code">11</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_12" model="res.country.state">
+            <field name="name">TEBESSA</field>
+            <field name="code">12</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_13" model="res.country.state">
+            <field name="name">TLEMCEN</field>
+            <field name="code">13</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_14" model="res.country.state">
+            <field name="name">TIARET</field>
+            <field name="code">14</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_15" model="res.country.state">
+            <field name="name">TIZI OUZOU</field>
+            <field name="code">15</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_16" model="res.country.state">
+            <field name="name">ALGER</field>
+            <field name="code">16</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_17" model="res.country.state">
+            <field name="name">DJELFA</field>
+            <field name="code">17</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_18" model="res.country.state">
+            <field name="name">JIJEL</field>
+            <field name="code">18</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_19" model="res.country.state">
+            <field name="name">SETIF</field>
+            <field name="code">19</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_20" model="res.country.state">
+            <field name="name">SAIDA</field>
+            <field name="code">20</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_21" model="res.country.state">
+            <field name="name">SKIKDA</field>
+            <field name="code">21</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_22" model="res.country.state">
+            <field name="name">SIDI BEL ABBES</field>
+            <field name="code">22</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_23" model="res.country.state">
+            <field name="name">ANNABA</field>
+            <field name="code">23</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_24" model="res.country.state">
+            <field name="name">GUELMA</field>
+            <field name="code">24</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_25" model="res.country.state">
+            <field name="name">CONSTANTINE</field>
+            <field name="code">25</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_26" model="res.country.state">
+            <field name="name">MEDEA</field>
+            <field name="code">26</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_27" model="res.country.state">
+            <field name="name">MOSTAGANEM</field>
+            <field name="code">27</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_28" model="res.country.state">
+            <field name="name">M'SILA</field>
+            <field name="code">28</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_29" model="res.country.state">
+            <field name="name">MASCARA</field>
+            <field name="code">29</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_30" model="res.country.state">
+            <field name="name">OUARGLA</field>
+            <field name="code">30</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_31" model="res.country.state">
+            <field name="name">ORAN</field>
+            <field name="code">31</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_32" model="res.country.state">
+            <field name="name">EL BAYADH</field>
+            <field name="code">32</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_33" model="res.country.state">
+            <field name="name">ILLIZI</field>
+            <field name="code">33</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_34" model="res.country.state">
+            <field name="name">BORDJ BOU ARRERIDJ</field>
+            <field name="code">34</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_35" model="res.country.state">
+            <field name="name">BOUMERDES</field>
+            <field name="code">35</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_36" model="res.country.state">
+            <field name="name">EL TARF</field>
+            <field name="code">36</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_37" model="res.country.state">
+            <field name="name">TINDOUF</field>
+            <field name="code">37</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_38" model="res.country.state">
+            <field name="name">TISSEMSILT</field>
+            <field name="code">38</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_39" model="res.country.state">
+            <field name="name">EL OUED</field>
+            <field name="code">39</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_40" model="res.country.state">
+            <field name="name">KHENCHELA</field>
+            <field name="code">40</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_41" model="res.country.state">
+            <field name="name">SOUK AHRAS</field>
+            <field name="code">41</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_42" model="res.country.state">
+            <field name="name">TIPAZA</field>
+            <field name="code">42</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_43" model="res.country.state">
+            <field name="name">MILA</field>
+            <field name="code">43</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_44" model="res.country.state">
+            <field name="name">AIN DEFLA</field>
+            <field name="code">44</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_45" model="res.country.state">
+            <field name="name">NAAMA</field>
+            <field name="code">45</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_46" model="res.country.state">
+            <field name="name">AIN TEMOUCHENT</field>
+            <field name="code">46</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_47" model="res.country.state">
+            <field name="name">GHARDAIA</field>
+            <field name="code">47</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+        <record id="state_48" model="res.country.state">
+            <field name="name">RELIZANE</field>
+            <field name="code">48</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <!-- new -->
+
+        <record id="state_49" model="res.country.state">
+            <field name="name">RELIZANE</field>
+            <field name="code">Timimoun</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+
+        <record id="state_50" model="res.country.state">
+            <field name="name">Bordj Badji Mokhtar</field>
+            <field name="code">50</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_51" model="res.country.state">
+            <field name="name">Ouled Djellal</field>
+            <field name="code">51</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_52" model="res.country.state">
+            <field name="name">Béni Abbès</field>
+            <field name="code">52</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_53" model="res.country.state">
+            <field name="name">In Salah</field>
+            <field name="code">53</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_54" model="res.country.state">
+            <field name="name">In Guezzam</field>
+            <field name="code">54</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_55" model="res.country.state">
+            <field name="name">Touggourt</field>
+            <field name="code">55</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_56" model="res.country.state">
+            <field name="name">Djanet</field>
+            <field name="code">56</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_57" model="res.country.state">
+            <field name="name">El M'Ghair</field>
+            <field name="code">57</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+        <record id="state_58" model="res.country.state">
+            <field name="name">El Meniaa</field>
+            <field name="code">58</field>
+            <field model="res.country" name="country_id" search="[('code','=','DZ')]"/>
+        </record>
+
+
+
+<!--    </data>-->
+</odoo>
