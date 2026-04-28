@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="owl_status_indicator.StatusIndicatorTemplate">
+        <div class="d-flex align-items-center">
+            <span class="fw-bold me-2" t-esc="props.record.data[props.name]"/>
+
+            <i class="fa"
+               t-att-class="statusConfig.icon + ' ' + statusConfig.color"
+               style="font-size: 1.2rem;"
+               t-att-title="'Status level: ' + props.record.data[props.name]"
+               data-bs-toggle="tooltip"/>
+        </div>
+    </t>
+</templates>

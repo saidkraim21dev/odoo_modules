@@ -1,0 +1,256 @@
+<section class="oe_container">
+	<div class="oe_row oe_spaced">
+		<h2 class="oe_slogan">OWL Smart Status Indicator</h2>
+		<h3 class="oe_slogan mb-0">Advanced Visual Badges for Odoo 19</h3>
+		<div class="mb-4" style="text-align: center;">
+			<span
+				class="btn btn-sm mb-2"
+				style="font-size:14px; font-weight:500; background-color:#714B67; color:#fff; cursor:default;">
+				<i class="fa fa-check me-1"></i> Entreprise
+			</span>
+			<span
+				class="btn btn-sm mb-2"
+				style="font-size:14px; font-weight:500; background-color:#243742; color:#fff; cursor:default;">
+				<i class="fa fa-check me-1"></i> Community
+			</span>
+		</div>
+	</div>
+</section>
+
+<section class="oe_container oe_dark">
+	<div class="oe_row oe_spaced">
+		<div style="max-width: 84%; margin: 16px 8%; text-align: center;">
+			<h3 class="oe_slogan">Bring Your Data to Life</h3>
+			<p class="oe_mt32" style="font-size: 16px; line-height: 1.8;">
+				Stop looking at boring static numbers. <strong>OWL Smart Status Indicator</strong>
+				transforms any numeric field into an instant visual signal — green, amber, or red.
+				Perfect for Stock Levels, Quality Ratings, Project Progress, or any Numeric KPI.
+				<br><br>
+				Drop it into any Form, Tree, or Kanban view with a single attribute. Zero configuration required.
+			</p>
+			<div style="margin-top: 24px; display: inline-block; background: #1A1C23; border-radius: 12px; padding: 16px 28px;">
+				<code style="font-size: 14px; color: #abb2bf; font-family: 'Courier New', monospace;">
+					&lt;<span style="color:#E06C75;">field</span>
+					<span style="color:#D19A66;">name</span>=<span style="color:#98C379;">"progress_rate"</span>
+					<span style="color:#D19A66;">widget</span>=<span style="color:#98C379;">"status_indicator"</span>/&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="oe_container">
+	<div class="oe_row oe_spaced">
+		<div style="max-width: 84%; margin: 16px 8%;">
+			<h3 class="oe_slogan">How It Works</h3>
+			<p style="text-align: center; font-size: 15px; color: #666; margin-bottom: 32px;">
+				Three intelligent states — automatically determined from your field value.
+			</p>
+			<div class="row">
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 22px; text-align: center; height: 100%;">
+						<div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(16,185,129,0.10); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+								<circle cx="14" cy="14" r="13" fill="rgba(16,185,129,0.18)"/>
+								<path d="M8 14l4.5 4.5 7.5-7.5" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div style="display: inline-block; background: rgba(16,185,129,0.10); color: #059669; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; padding: 4px 14px; border-radius: 100px; margin-bottom: 12px; text-transform: uppercase;">≥ 80%</div>
+						<h4 style="color: #059669; font-weight: 700; margin-bottom: 10px;">Optimal</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Everything is on track. A clean success signal keeps attention where it's needed most.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 22px; text-align: center; height: 100%;">
+						<div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(245,158,11,0.10); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+								<path d="M14 4L26 23H2L14 4z" fill="rgba(245,158,11,0.18)" stroke="#F59E0B" stroke-width="1.8" stroke-linejoin="round"/>
+								<path d="M14 13v5" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+								<circle cx="14" cy="20.5" r="1.2" fill="#F59E0B"/>
+							</svg>
+						</div>
+						<div style="display: inline-block; background: rgba(245,158,11,0.10); color: #B45309; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; padding: 4px 14px; border-radius: 100px; margin-bottom: 12px; text-transform: uppercase;">40 – 79%</div>
+						<h4 style="color: #B45309; font-weight: 700; margin-bottom: 10px;">Warning</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Attention is needed. Value is in a degraded range that requires timely review.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 22px; text-align: center; height: 100%;">
+						<div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(239,68,68,0.10); margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+								<circle cx="14" cy="14" r="13" fill="rgba(239,68,68,0.18)"/>
+								<path d="M9 9l10 10M19 9L9 19" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div style="display: inline-block; background: rgba(239,68,68,0.10); color: #DC2626; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; padding: 4px 14px; border-radius: 100px; margin-bottom: 12px; text-transform: uppercase;">&lt; 40%</div>
+						<h4 style="color: #DC2626; font-weight: 700; margin-bottom: 10px;">Critical</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Immediate action required. High-priority issues surface before they escalate.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="oe_container">
+	<div class="oe_row oe_spaced">
+		<div style="max-width: 84%; margin: 16px 8%;">
+			<h3 class="oe_slogan">Zero-Configuration Usage</h3>
+			<p style="text-align: center; font-size: 15px; color: #666; margin-bottom: 28px;">
+				Works in Form, Tree, and Kanban views. Simply add the <code>widget</code> attribute — nothing else.
+			</p>
+			<div style="background: #1A1C23; border-radius: 14px; overflow: hidden;">
+				<div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.02);">
+					<div style="display: flex; gap: 7px;">
+						<div style="width: 11px; height: 11px; border-radius: 50%; background: #FF5F57;"></div>
+						<div style="width: 11px; height: 11px; border-radius: 50%; background: #FEBC2E;"></div>
+						<div style="width: 11px; height: 11px; border-radius: 50%; background: #28C840;"></div>
+					</div>
+					<span style="font-size: 10px; color: rgba(255,255,255,0.28); letter-spacing: 0.10em; text-transform: uppercase; font-family: 'Courier New', monospace;">XML · Odoo View</span>
+				</div>
+				<div style="padding: 24px 22px; font-size: 14px; line-height: 2.2; font-family: 'Courier New', Courier, monospace; color: rgba(255,255,255,0.75);">
+					<span style="color: rgba(255,255,255,0.22); font-style: italic;">&lt;!-- Form View --&gt;</span><br>
+					&lt;<span style="color:#E06C75;">field</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">name</span>=<span style="color:#98C379;">"progress_rate"</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">widget</span>=<span style="color:#98C379;">"status_indicator"</span>/&gt;<br><br>
+					<span style="color: rgba(255,255,255,0.22); font-style: italic;">&lt;!-- List View --&gt;</span><br>
+					&lt;<span style="color:#E06C75;">field</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">name</span>=<span style="color:#98C379;">"quality_score"</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">widget</span>=<span style="color:#98C379;">"status_indicator"</span>/&gt;<br><br>
+					<span style="color: rgba(255,255,255,0.22); font-style: italic;">&lt;!-- Kanban View --&gt;</span><br>
+					&lt;<span style="color:#E06C75;">field</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">name</span>=<span style="color:#98C379;">"fill_rate"</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D19A66;">widget</span>=<span style="color:#98C379;">"status_indicator"</span>/&gt;
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="oe_container oe_dark">
+	<div class="oe_row oe_spaced">
+		<div style="max-width: 84%; margin: 16px 8%;">
+			<h3 class="oe_slogan">Core Advantages</h3>
+			<div class="row">
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 26px 20px; height: 100%;">
+						<div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(113,75,103,0.10); display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<path d="M10 1.5l1.8 5.5H18l-4.7 3.4 1.8 5.5L10 12.5l-5.1 3.4 1.8-5.5L2 7h6.2L10 1.5z" fill="#714B67"/>
+							</svg>
+						</div>
+						<h4 style="font-size: 15px; font-weight: 700; color: #1C1B19; margin-bottom: 8px;">OWL Reactivity</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Powered by Odoo's native OWL reactive framework. No polling, no flicker — state updates propagate instantly on field change.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 26px 20px; height: 100%;">
+						<div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(0,160,157,0.10); display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<rect x="1" y="6" width="6" height="10" rx="1.5" fill="#00A09D" opacity=".4"/>
+								<rect x="9" y="3" width="10" height="14" rx="1.5" fill="#00A09D"/>
+							</svg>
+						</div>
+						<h4 style="font-size: 15px; font-weight: 700; color: #1C1B19; margin-bottom: 8px;">Fully Responsive</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Adapts to every screen — mobile kanban, desktop form, and tree list views work perfectly without any extra configuration.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb16">
+					<div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 26px 20px; height: 100%;">
+						<div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(245,158,11,0.10); display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<rect x="1.5" y="4" width="17" height="13" rx="1.8" stroke="#B45309" stroke-width="1.4"/>
+								<path d="M5 10h10M5 13.5h6" stroke="#B45309" stroke-width="1.4" stroke-linecap="round"/>
+								<circle cx="14" cy="7.5" r="1.5" fill="#B45309"/>
+							</svg>
+						</div>
+						<h4 style="font-size: 15px; font-weight: 700; color: #1C1B19; margin-bottom: 8px;">Bootstrap Native</h4>
+						<p style="font-size: 13px; color: #6B6A67; line-height: 1.65; margin: 0;">
+							Uses Odoo's standard utility classes and styling conventions. Plays perfectly with your existing theme and customizations.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="oe_container">
+	<div class="oe_row oe_spaced">
+		<div style="max-width: 84%; margin: 16px 8%;">
+			<h3 class="oe_slogan">Use Cases</h3>
+			<p style="text-align: center; font-size: 15px; color: #666; margin-bottom: 28px;">
+				Works anywhere you have a numeric field — across every Odoo module.
+			</p>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Stock &amp; inventory fill rates</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Project completion %</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Manufacturing quality scores</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Sales target achievement</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Delivery on-time performance</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Budget utilization ratios</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Employee productivity KPIs</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb16">
+					<div style="background: #F5F4F2; border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px;">
+						<div style="width: 8px; height: 8px; border-radius: 50%; background: #714B67; flex-shrink: 0;"></div>
+						<span style="font-size: 13px; color: #6B6A67;">Customer satisfaction ratings</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
